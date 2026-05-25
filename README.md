@@ -1,22 +1,23 @@
 # Price Monitor Bot
 
-It is an elementary bot for price monitoring on web sites with the notification in Telegram. This bot created for a small business: follow your competitors and do not loose your clients because of discounts. 
+A simple bot for monitoring product prices on websites and sending notifications to Telegram when prices drop.
 
+## How it works
 
-## How is works
-1. It is launched every hour through Windows Task Scheduler
-2. It checks prices according to the list of links
-3. If the price drops lower than yours - sends notification to a Telegram 
-4. It works on the regular PC or laptop. You do not need a server. 
+1. Runs automatically every hour via Windows Task Scheduler
+2. Checks prices on the list of product links you provide
+3. If the price drops below your target, it sends a notification to your Telegram
+4. Works on any regular PC or laptop - no server required
 
 ## Demo
+
 ![Telegram notification](screenshot.jpg)
 
-Notification includes: name of the product, old and new price, link.
+Notifications include: product name, old price, new price, and direct link.
 
-## Quick start
+## Quick Start
 
-### 1. Identify the relationships
+### 1. Install dependencies
 ```bash
 npm install puppeteer
-npx puppeteer install chromium
+npx puppeteer browsers install chrome
