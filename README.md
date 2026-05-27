@@ -11,7 +11,7 @@ A simple bot for monitoring product prices on websites and sending notifications
 
 ## Demo
 
-![Telegram notification]<img width="339" height="900" alt="Image 2026-05-27 at 09 36 12" src="https://github.com/user-attachments/assets/2314a30e-35cf-4fac-858a-88e04d1ab3f9" />
+![Telegram notification] (<img width="439" height="900" alt="Image 2026-05-27 at 09 36 12" src="https://github.com/user-attachments/assets/2314a30e-35cf-4fac-858a-88e04d1ab3f9" />)
 
 
 
